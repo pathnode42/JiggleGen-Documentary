@@ -20,7 +20,7 @@ The Header sets Global Settings for your generated meshes and can be used for an
 
 <img src="../img/simulation_settings_01.jpg" alt="Simulation Settings">
 
-All settings that cloth modifiers are providing are displayed here, with a sligth visual upgrade.
+All settings that cloth modifiers are providing are displayed here, with a slight visual upgrade.
 
 ## Presets
 
