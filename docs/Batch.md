@@ -29,9 +29,15 @@ JiggleGen offers two types of batch operations: 'Cloth Generation' and 'Collisio
 Each operation produces one or more ProxyMeshes, which store the actual cloth or collision modifier. 
 The original source object is then linked to the proxymesh via a 'Surface Deform' modifier. To maintain clarity, each generated object receives an automated, descriptive name.
 
-Cloth Mesh: phy_[Source Object]_[Preset]
+`Cloth Mesh: phy_[Source Object]_[Preset]`
 
-Collision Mesh: col_[Source Object]
+`Collision Mesh: col_[Source Object]`
+
+If the Target Mesh already has an Armature Modifier, it will be automatically copied to the generated Proxy Meshes. This way, all animations and deformations are passed on to the simulation.
+
+The Target Mesh will continue to use its own Vertex Groups and Armature Modifier, but it will also be affected by the simulated motion from the Proxy Mesh through its 'Surface Deform' modifier.
+
+Armature > ProxyMesh > TargetMesh
 
 
 ## Generate Cloth
