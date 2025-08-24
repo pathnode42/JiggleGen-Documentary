@@ -62,3 +62,7 @@ https://bsky.app/profile/pathnode.bsky.social
 https://www.patreon.com/c/pathnode
 
 https://www.youtube.com/@pathnode
+
+## 📄 License 
+
+The documentation in this repository is licensed under CC BY-NC 4.0. The JiggleGen add-on itself is distributed under a separate commercial license via Gumroad
