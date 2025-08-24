@@ -6,7 +6,7 @@ JiggleGen is an addon that creates and manages proxy meshes for cloth simulation
 
 <b>[Get JiggleGen](https://pathnode.gumroad.com/l/jigglegen)
 
-## Docs
+## :memo: Docs
 
 
 <b>[Overview](/docs/Overview.md)
@@ -21,7 +21,7 @@ JiggleGen is an addon that creates and manages proxy meshes for cloth simulation
 
 <b>[Troubleshoot](/docs/Troubleshoot.md)
 
-## Features
+## :bulb: Features
 
 - Cloth & Collision Mesh from Vertex Groups Quickly generate simulation-ready cloth and collision geometry from any vertex group.
 - Automatic Target AttachmentAttaches the target mesh to the generated cloth via a Surface Deform modifier—zero manual rigging required.
@@ -47,7 +47,7 @@ Batch
 - Batch Management PanelEasily review, modify, or regenerate all components of your model through an organized batch queue.
 - Smart Collision ExclusionCreate a collision Mesh, which is the opposite of all selected vertex group mesh data—great for characters with both jiggly and > rigid areas.
 
-## Compability
+## :hammer_and_wrench: Compability
 
 Tested with Blender 4.0+, Blender 3.6+ probably works aswell.
 
