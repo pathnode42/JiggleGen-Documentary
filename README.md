@@ -8,7 +8,11 @@ JiggleGen is an addon that creates and manages proxy meshes for cloth simulation
 
 ## Docs
 
+<b>[Quick-Start](/docs/Quickstart.md)
 
+<b>[Installation](/docs/Installation.md)
+
+<b>[Simulation Settings](/docs/Simulation-Settings.md)
 
 
 ## Features
