@@ -4,7 +4,7 @@
 
 JiggleGen is an addon that creates and manages proxy meshes for cloth simulations. With an integrated batch operation you can now generate every piece for your whole character. Ears, hair, dresses, braids, breasts, belts, butts and accesories, can now be generated within a couple of minutes. Don't worry anymore about Surface Deform & Collision modifiers, JiggleGen does that for you!
 
-# <b>[Get JiggleGen](https://pathnode.gumroad.com/l/jigglegen)
+<b>[Get JiggleGen](https://pathnode.gumroad.com/l/jigglegen)
 
 ## :memo: Docs
 
