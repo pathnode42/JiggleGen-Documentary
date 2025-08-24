@@ -35,7 +35,7 @@ To use them:
 
 3. Go to JiggleGen (N-Panel) and press the refresh icon under 'Presets'
 
-<img src="img/n-panel_presets.jpg" alt="Presets">
+<img src="../img/n-panel_presets.jpg" alt="Presets">
 
 
 
