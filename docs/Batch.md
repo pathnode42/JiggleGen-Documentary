@@ -3,7 +3,7 @@
 
 <img src="../img/batch_01.jpg" alt="Batch List"> 
 
-All Batch-Jobs are stored in the Batch-List. Each Job can be expanded/condensed for better overview. The Eye-Icon marks wether or not it should be used for the batch operation.
+All Batch-Jobs are stored in the Batch-List. Each job can be expanded/condensed for better overview. The Eye-Icon marks wether or not it should be used for the batch operation.
 A Batch-Job consists of a target object (Job) and its selected Vertex Groups (Entry). Each Entry will create an individual Proxymesh. 
 
 ```
@@ -25,9 +25,9 @@ Object B (Job)
 
 # Batch Operation Modes
 
-JiggleGen offers two types of batch operations: Cloth Generation and Collision Generation. 
-Each operation produces one or more Proxymeshes, which store the actual cloth or collision modifier. 
-The original Source Object is then linked to the Proxymesh via a 'Surface Deform' Modifier. To maintain clarity, each generated object receives an automated, descriptive name.
+JiggleGen offers two types of batch operations: 'Cloth Generation' and 'Collision Generation'. 
+Each operation produces one or more ProxyMeshes, which store the actual cloth or collision modifier. 
+The original source object is then linked to the proxymesh via a 'Surface Deform' modifier. To maintain clarity, each generated object receives an automated, descriptive name.
 
 Cloth Mesh: phy_[Source Object]_[Preset]
 
@@ -36,24 +36,17 @@ Collision Mesh: col_[Source Object]
 
 ## Generate Cloth
 
-Each object in the Batch-List will be isolated and copied. The selected VertexGroup will be used as a mask to delete the remaining geometry of that ProxyObject. 
-Afterwards, all modifiers except for Armature (if excisting) will be deleted. A 'Surface Deform' Modifier will be created and set to the Source/Target Object. A Cloth Modifier will be added and the values of the selected Preset will be imported. 
-Depending on the Entry settings, a Decimate and/or Smooth modifier will be added. The resulting Proxymeshes gets moved to the JiggleGen Collection.
-
-Detailed batch process for each object in the batch list:
+Each object in the Batch-List runs through an automated process:
 
 1. The object is isolated and duplicated.
 2. The selected Vertex Group is used as a mask to delete all other geometry from the proxy object.
-3.All modifiers are removed, except for Armature (if present).
+3. All modifiers are removed, except for Armature (if present).
 4. A Surface Deform Modifier is created and assigned to the Source/Target Object.
 5. A Cloth Modifier is added, and the settings from the selected preset are applied.
 6. Depending on the entry settings, Decimate and/or Smooth modifiers may be added.
 7. The resulting Proxymesh is moved into the JiggleGen Collection.
 
 ## Generate Collision
-
-Each object in the Batch-List will be isolated and copied. For each Entry with `Add Collision` being active, the Meshdata of each selected VertexGroup will be deleted. The remaining geometry will be fused to one Proxymesh. Afterwards, all modifiers except for Armature (if excisting) will be delet. 
-A Collision Modifier will be added and the Proxymesh gets moved to the JiggleGen Collection.
 
 Detailed batch process for each object in the batch list with Add Collision enabled:
 
@@ -80,3 +73,8 @@ Detailed batch process for each object in the batch list with Add Collision enab
 `Decimate`: Performs a Decimate Operation on the generated Proxymesh.
 
 `Smooth Modifier`: Adds a Smooth Modifier on the generated Proxymesh.
+
+Example:
+
+<img src="../img/batch_02.jpg" alt="Batch List"> 
+
