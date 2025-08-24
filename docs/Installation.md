@@ -1,7 +1,5 @@
 # Installation
 
-Installation Guide for the Blender Add-on JiggleGen
-
 1. Download the JiggleGen add-on as a .zip file from Gumroad. Do not unzip the file.
 
 2. Open Blender.
