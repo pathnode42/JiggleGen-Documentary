@@ -1,4 +1,4 @@
-Before you start, please make sure you did all steps before, which are explained in [Installation](docs/installation.md).
+:bulb: Before you start, please make sure you did all steps before, which are explained in [Installation](docs/installation.md).
 
 
 ## Preparing
@@ -27,9 +27,6 @@ The result should look like this:
 
 
 <img src="/img/batch_01.jpg" alt="Installationsdialog">
-
-JiggleGen has now created a Proxymesh from your selected vertex group and created a 'Surface Deform' Modifier for your Target Mesh. All proxymeshes will be stored in the collection 'JiggleGen Physics'. If you want to finetune and redo the generation, activate `Overwrite` and adjust the settings in the 'Simulation Settings' Sub-Panel. 
-Keep in mind that each Batch Entry will always use the selected preset. If the preset selection is empty, it will use the values directly from the Sub-Panel. If you have selected a Preset, you will need to adjust this Preset first.
 
 Once you hit 'Generate', it generates one ore more Proxy Meshes from the chosen vertex groups. Your Source/Target Mesh will now be mapped to that Proxy Mesh via a 'Surface Deform' Modifier. All proxy meshes are stored in the collection “JiggleGen Physics”.
 
