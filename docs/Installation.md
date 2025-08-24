@@ -35,4 +35,8 @@ To use them:
 
 3. Go to JiggleGen (N-Panel) and press the refresh icon under 'Presets'
 
+<img src="img/n-panel_presets.jpg" alt="Presets">
+
+
+
 The presets will then be available for selection in Blender’s cloth settings.
