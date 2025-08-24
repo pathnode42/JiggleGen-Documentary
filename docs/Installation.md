@@ -27,7 +27,7 @@ JiggleGen can save and load cloth simulation presets within Blender’s native d
 Inside the downloaded .zip file und 'presets', you will find a collection of ready-made presets.
 To use them:
 
-1. Extract only the presets from the .zip file.
+1. Extract only the presets from the .zip file (.py).
 
 2. Place them into the folder shown above.
 
