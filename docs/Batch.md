@@ -1,6 +1,7 @@
 
 # Batch List
 
+<img src="../img/batch_01.jpg" alt="Batch List"> 
 
 All Batch-Jobs are stored in the Batch-List. Each Job can be expanded/condensed for better overview. The Eye-Icon marks wether or not it should be used for the batch operation.
 A Batch-Job consists of a target object (Job) and its selected Vertex Groups (Entry). Each Entry will create an individual Proxymesh. 
