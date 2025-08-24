@@ -32,4 +32,13 @@ By purchasing, installing, or using the Software, you agree to the following ter
 
 ---
 
+Blender GPL:
+This add-on is developed exclusively using Blender’s public Python API. 
+It does not link against or modify Blender’s source code. 
+As confirmed by the Blender Foundation, Python add-ons are considered separate works 
+and are therefore not automatically subject to Blender’s GPL license. 
+
+This add-on is distributed under a separate commercial license.
+
+
 © 2025 Pathnode. All rights reserved.
