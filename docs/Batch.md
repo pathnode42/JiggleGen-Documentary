@@ -74,6 +74,7 @@ Detailed batch process for each object in the batch list with Add Collision enab
 
 `Smooth Modifier`: Adds a Smooth Modifier on the generated Proxymesh.
 
+
 Example:
 
 <img src="../img/batch_02.jpg" alt="Batch List"> 
