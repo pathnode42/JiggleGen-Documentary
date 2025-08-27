@@ -26,7 +26,7 @@ The result should look like this:
 5. If you want to generate a 'Collision Mesh' from the unselected areas, activate `Add Collision` for the desired Entries and press `Generate Collision`
 
 
-<img src="/img/batch_01.jpg" alt="Installationsdialog">
+<img src="/img/batch_03.jpg" alt="Installationsdialog">
 
 Once you hit 'Generate', it generates one ore more Proxy Meshes from the chosen vertex groups. Your Source/Target Mesh will now be mapped to that Proxy Mesh via a 'Surface Deform' Modifier. All proxy meshes are stored in the collection “JiggleGen Physics”.
 
