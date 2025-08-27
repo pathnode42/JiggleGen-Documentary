@@ -30,7 +30,7 @@ All values in the 'Simulation Settings' Sub-Panel can be loaded or saved in the 
 
 ## Batch
 
-<img src="../img/batch_01.jpg" alt="Batch">
+<img src="../img/batch_03.jpg" alt="Batch">
 
 All Batch-Jobs are stored in the Batch-List. Each Job can be expanded/condensed for better overview. The Eye-Icon marks wether or not it should be used for the batch operation. 
 A Batch-Job consists of a target object (Job) and its selected Vertex Groups (Entry). For faster setup, all settings inside one Entry can be copied&pasted to an other Entry.
